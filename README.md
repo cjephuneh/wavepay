@@ -1,50 +1,57 @@
-# Welcome to your Expo app 👋
+# WavePay
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+WavePay is a mobile application designed to help users manage their internet service providers (ISPs) in one place. With WavePay, users can track internet usage, view balances, check remaining days, and make payments for their internet services. The app also provides a platform for ISPs to add their pricing tiers, payment methods, and other important details for their customers.
 
-## Get started
+## Features
 
-1. Install dependencies
+- **ISP Integration:** Users can select their ISP and view relevant details like usage, balance, and plan information.
+- **Payment Tracking:** Users can track their payments, make partial payments, and save up for the next payment.
+- **ISP Dashboard:** ISPs can manage and update their plans, pricing tiers, and payment methods through a dedicated dashboard.
+- **Notifications:** Users receive alerts about their plan status, remaining days, and payment due dates.
+- **Secure Payment Gateway:** Users can securely make payments via multiple methods supported by their ISP.
+  
+## Installation
 
-   ```bash
-   npm install
-   ```
+To run the project locally, follow the steps below:
 
-2. Start the app
+1. Clone the repository:
+    ```bash
+    git clone https://github.com/yourusername/WavePay.git
+    ```
+2. Install dependencies:
+    ```bash
+    npm install
+    ```
+3. Run the app:
+    ```bash
+    npm start
+    ```
 
-   ```bash
-    npx expo start
-   ```
+## Technologies Used
 
-In the output, you'll find options to open the app in a
+- React Native
+- Redux (for state management)
+- Firebase (for backend services)
+- Stripe / PayPal (for payment integration)
+- React Navigation (for app navigation)
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+## Contributing
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+We welcome contributions! To contribute to the development of WavePay:
 
-## Get a fresh project
+1. Fork the repository.
+2. Create a new branch (`git checkout -b feature/your-feature`).
+3. Make your changes and commit them (`git commit -am 'Add new feature'`).
+4. Push to your branch (`git push origin feature/your-feature`).
+5. Create a new Pull Request.
 
-When you're ready, run:
+## Contact
 
-```bash
-npm run reset-project
-```
+If you have any questions or feedback, feel free to contact us via email or through social media!
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+Email: support@wavepay.com  
+Social Media: [Facebook](https://facebook.com/wavepay) | [Twitter](https://twitter.com/wavepay)
 
-## Learn more
+---
 
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+© 2025 WavePay. All rights reserved.
